@@ -1,5 +1,5 @@
 import { MongoClient } from "mongodb";
-import { getActions } from "eosio-mongodb-queries";
+import { getActions } from "bcskill-eosio-mongodb-queries";
 import { flattenObject } from "../../utils";
 import { isString } from "util";
 

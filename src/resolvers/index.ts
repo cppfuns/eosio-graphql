@@ -7,9 +7,9 @@ import { getMongodbResolvers } from "./mongodb";
 
 // Parse package.json
 const pckg = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "..", "package.json"), "utf8"));
-const mongodbPckg = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "..", "node_modules", "eosio-mongodb-queries", "package.json"), "utf8"));
+const mongodbPckg = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "..", "node_modules", "bcskill-eosio-mongodb-queries", "package.json"), "utf8"));
 
-const version = { "eosio-graphql": pckg.version, "eosio-mongodb-queries": mongodbPckg.version };
+const version = { "eosio-graphql": pckg.version, "bcskill-eosio-mongodb-queries": mongodbPckg.version };
 
 // EOSIO GraphQL App Metadata
 export const Query: any = {

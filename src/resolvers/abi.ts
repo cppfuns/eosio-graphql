@@ -1,5 +1,5 @@
 import { MongoClient } from "mongodb";
-import { getActions } from "eosio-mongodb-queries";
+import { getActions } from "bcskill-eosio-mongodb-queries";
 import { getAbis } from "../abi";
 import { isString } from "util";
 

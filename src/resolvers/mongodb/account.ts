@@ -1,5 +1,5 @@
 import { MongoClient } from "mongodb";
-import { getAccount } from "eosio-mongodb-queries";
+import { getAccount } from "bcskill-eosio-mongodb-queries";
 
 const getAccountResolver = ({
   mongoClient,
