@@ -6,8 +6,8 @@ import { getResolvers, defaultBuildResolvers } from "./src/resolvers/index";
 
 export function eosGraphQLGateway(config: any = {}) {
   const {
-    host = "localhost",
-    port = 4000,
+    host = "0.0.0.0",
+    port = 443,
     mongoClient,
     buildSchema = defaultBuildSchema,
     buildResolvers = defaultBuildResolvers,
