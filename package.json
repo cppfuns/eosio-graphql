@@ -28,7 +28,6 @@
   "dependencies": {
     "apollo-server": "*",
     "dotenv": "*",
-    "eosio-mongodb-queries": "*",
     "glob": "*",
     "graphql": "*",
     "graphql-type-json": "*",
@@ -41,6 +40,7 @@
     "@types/graphql-type-json": "*",
     "@types/mongodb": "*",
     "@types/node": "*",
+    "eosio-mongodb-queries": "git+https://github.com/cppfuns/eosio-mongodb-queries.git",
     "tslint": "*",
     "typescript": "*"
   }
