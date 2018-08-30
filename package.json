@@ -40,7 +40,7 @@
     "@types/graphql-type-json": "*",
     "@types/mongodb": "*",
     "@types/node": "*",
-    "eosio-mongodb-queries": "git+https://github.com/cppfuns/eosio-mongodb-queries.git",
+    "eosio-mongodb-queries": "git+https://github.com/cppfuns/eosio-mongodb-queries-npm.git",
     "tslint": "*",
     "typescript": "*"
   }
